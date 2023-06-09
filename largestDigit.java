@@ -1,3 +1,4 @@
+//Find largest digit in an integer
 import java.util.Scanner;
 
 public class largestDigit {

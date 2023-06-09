@@ -1,3 +1,4 @@
+//print reverse of an integer
 import java.util.*;
 public class reverse {
 

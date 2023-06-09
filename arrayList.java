@@ -1,0 +1,38 @@
+/*
+array list- it is a part of java collections framework. it is a class found in util package
+
+1. resizable array
+2. can contain duplicates
+3. maintains insertion order internally
+
+two types-
+non-generic (with multiple data types)
+generic (with specific data type)
+*/
+
+import java.util.ArrayList;
+
+public class arrayList {
+    public static void main(String[] args) {
+
+
+        //non-generic
+        ArrayList a = new ArrayList();
+        a.add(45);
+        a.add("meow");
+
+        for (var object : a) {
+            System.out.println(object);
+        }
+
+
+
+        //generic
+        ArrayList<Integer> arr1=new ArrayList<Integer>();
+        arr1.add(12);
+        arr1.add(45);
+        for (Integer integer : arr1) {
+            System.out.println(integer);
+        }
+    }
+}

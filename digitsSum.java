@@ -1,3 +1,4 @@
+//find sum of all digits in an integer
 import java.util.Scanner;
 
 public class digitsSum {
