@@ -11,7 +11,7 @@ generic (with specific data type)
 
 methods - 
 1. add() - add(index,element):inserts an element in given index and shifts existing element(if any) in next index.
-2. size()
+2. size() - instead of .lenth
 3. isEmpty() - gives boolean value
 4. remove() - remove("c"), remove(index_of_element)
 5. get() - access element in arraylist, get(index)
