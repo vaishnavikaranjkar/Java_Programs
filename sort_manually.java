@@ -1,3 +1,4 @@
+//sort an array using simple for loop
 public class sort_manually {
     public static void main(String[] args) {
         int array[]={1,5,2,0,2};
