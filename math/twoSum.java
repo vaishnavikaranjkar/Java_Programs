@@ -18,8 +18,4 @@ class twoSum {
         }
         return new int[] {};
     }
-    public static void main(String[] args) {
-        twoSum ts=new twoSum();
-        
-    }
 }
