@@ -31,9 +31,6 @@ public class remove_key {
             }
             System.out.println(obj);
         }
-	    public void display(Map<String, Double> obj) {
-		        System.out.println(obj);
-	    }
 
 	    public static void main(String[] args) {
 		        Map<String,Double> map=new TreeMap<String,Double>();
