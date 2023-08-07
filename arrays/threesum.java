@@ -11,6 +11,7 @@ public class threesum
         int nums[]={-1,0,1,2,-1,-4};
         List<List<Integer>> ans=new ArrayList<>();
         Arrays.sort(nums);
+        
         for(int i=0;i<nums.length-2;i++)
         {
             if(i>0 && nums[i]==nums[i-1])

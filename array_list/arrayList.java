@@ -25,14 +25,14 @@ public class arrayList {
 
 
         //non-generic
-        ArrayList a = new ArrayList();
-        a.add(45);
-        a.add("meow");
-        a.add(1,2);
+        // ArrayList a = new ArrayList();
+        // a.add(45);
+        // a.add("meow");
+        // a.add(1,2);
 
-        for (var object : a) {
-            System.out.println(object);
-        }
+        // for (var object : a) {
+        //     System.out.println(object);
+        // }
 
 
 
