@@ -43,7 +43,7 @@ public class remove_key {
 		        }
 		        remove_key obj=new remove_key();
 		        obj.detained(map);
-                
+                scanner.close();
 	    
         }
     }
