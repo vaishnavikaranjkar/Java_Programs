@@ -1,3 +1,4 @@
+//The happy number can be defined as a number which will yield 1 when it is replaced by the sum of the square of its digits repeatedly. If this process results in an endless cycle of numbers containing 4, then the number is called an unhappy number.
 import java.util.HashSet;
 
 public class happy_number {
