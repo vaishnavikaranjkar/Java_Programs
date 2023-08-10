@@ -7,7 +7,7 @@
 public class incr_decre_lower_tri {
     public static void main(String[] args) {
         int n=4;
-        int temp=0;
+
         int even_counter=1;
         int odd_counter=0;
         for(int i=0;i<n;i++)
