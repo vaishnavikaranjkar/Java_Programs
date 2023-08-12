@@ -20,6 +20,6 @@ public class armst{
         {
         System.out.print(0);
         }
-
+        sc.close();
     }
 }
