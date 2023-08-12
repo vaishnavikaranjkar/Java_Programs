@@ -1,3 +1,4 @@
+// 153 --> 1^3+5^3+3^3 = 153
 import java.util.Scanner;
 public class armst{
     public static void main(String[] args) {
