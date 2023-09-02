@@ -1,4 +1,3 @@
-
 public class gcd {
     public static void main(String[] args) {
         int a=98, b=56;

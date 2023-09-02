@@ -2,8 +2,8 @@
 //binary searching
 
 import java.util.*;
-class Solution {
-    public int search(int[] nums, int target) {
+class binary_search {
+    public static int search(int[] nums, int target) {
         int size=nums.length;
         Arrays.sort(nums);
         int min=0, max=size-1, temp;
@@ -24,5 +24,14 @@ class Solution {
             }
         }
         return -1;
+    }
+    public static void main(String[] args) {
+        long start=System.currentTimeMillis();
+        int arr[]={12,232,323,112,111,23,12,1};
+        int target=111;
+        int res=search(arr, target);
+        System.out.println(res);
+        long end=System.currentTimeMillis();
+        System.out.println(end-start);
     }
 }
