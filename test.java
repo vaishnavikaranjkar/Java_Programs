@@ -1,14 +1,10 @@
-public class test {
-    public static void main(String[] args) {
-        int j=0;
-        int temp;
-        for(int i=0;i<10;i++)
-        {
-            temp=j++;
-            
-            System.out.println(temp);
-        }
-        System.out.println(j);
+import java.util.Collections;
+import java.util.LinkedList;
 
-    }
+class test {
+  public static void main(String args[]) { 
+    StringBuffer s =new StringBuffer("Hello");
+    s.deleteCharAt(0);
+    System.out.println(s);
+    } 
 }
