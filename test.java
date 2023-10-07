@@ -1,10 +1,19 @@
-import java.util.Collections;
-import java.util.LinkedList;
+public class test
+{
 
-class test {
-  public static void main(String args[]) { 
-    StringBuffer s =new StringBuffer("Hello");
-    s.deleteCharAt(0);
-    System.out.println(s);
-    } 
+public static void getInfo(int val)
+{
+System.out.println("integer");
+}
+
+public static void getInfo(long val)
+{
+System.out.println("long");
+}
+
+public static void main(String args[])
+{
+getInfo(20l);
+}
+
 }
