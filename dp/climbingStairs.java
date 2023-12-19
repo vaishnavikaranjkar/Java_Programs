@@ -1,3 +1,4 @@
+package dp;
 public class climbingStairs {
     public static int climbStairs(int n) {
         int pos1=1, pos2=1,temp;
