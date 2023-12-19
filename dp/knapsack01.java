@@ -1,5 +1,8 @@
 /*to find the solution for 0/1 knapsack =>
-DP approach => 
+DP approach => this is a recursive code woth storage. this is carried out in two steps:
+- recursion function is written
+    - base condition 
+    - choice diagram
 */
 public class knapsack01 {
     public static int kp(int[] wt, int[] val, int W, int n)
